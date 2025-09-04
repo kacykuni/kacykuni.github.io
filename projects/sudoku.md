@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: https://s1.ezgif.com/tmp/ezgif-15252681436582.png
 title: "Modified Sudoku Game"
 date: 2022
 labels:
