@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://s1.ezgif.com/tmp/ezgif-15252681436582.png
+image: https://cdn.sudokutable.com/img/about/sudoku.png
 title: "Modified Sudoku Game"
 date: 2022
 labels:
