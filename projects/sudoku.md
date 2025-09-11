@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://cdn.sudokutable.com/img/about/sudoku.png
+image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F72159405%2Fhow-to-print-sudoku-board-using-python-class&psig=AOvVaw2w3VXLSb7-SJzRjGpsfQcW&ust=1757688017331000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCODd0KX40I8DFQAAAAAdAAAAABAE
 title: "Modified Sudoku Game"
 date: 2022
 labels:
