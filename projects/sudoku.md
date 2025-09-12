@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/VKRoD.png
+image: img/Sudoku-Solving.png
 title: "Modified Sudoku Game"
 date: 2022
 labels:
