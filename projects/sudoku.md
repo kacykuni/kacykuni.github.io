@@ -17,3 +17,5 @@ This provided me with insight and experience with handling user input, validatin
 <img width="381" height="356" alt="VKRoD" src="https://github.com/user-attachments/assets/9b982262-715e-4a36-9f68-41540b97a05a" />
 
 This is exactly how it is demonstrated to users after they finished solving the Sudoku within the IDE. There was functions and various classes for solving the Sudoku game, radnomizing each game, pausing & resuming during the game, and etc. It was definitely a fun experience in ICS 111. 
+
+Link: https://github.com/kacykuni/ModifiedSudoku
