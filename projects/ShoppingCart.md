@@ -12,9 +12,8 @@ labels:
 summary: "One of my final projects in ICS 111 and my first time using GUI in Java"
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="img/micromouse/Screenshot 2025-09-11 184100.jpg" class="img-thumbnail" >
-</div>
+![Screenshot 2025-09-11 184100](https://github.com/user-attachments/assets/68bfa827-6675-4719-b56a-fc3362b797de)
+
 
 For this final project in my ICS 111 class we were tasked to create a shopping cart application with a graphical user interface using Java Swing. This program allowed users to add items from a fixed drop down list of catagories and items, add different quantities, view their cart, and calculate their total with tax included.
 This was my first time working with GUI programming, it was very interesting and fun to be able to play with the different components like JFrame, JPanel, JList, and JOptionPane to create small or big interactive windows and buttons. This was a huge shift than working with user input and arguments. 
