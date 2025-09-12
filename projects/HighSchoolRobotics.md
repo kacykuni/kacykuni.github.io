@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/kikamana.png
 title: "High School Robotics"
 date: 2018
 published: true 
