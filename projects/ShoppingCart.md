@@ -13,7 +13,7 @@ summary: "One of my final projects in ICS 111 and my first time using GUI in Jav
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="..img/micromouse/Screenshot 2025-09-11 184100.jpg" class="img-thumbnail" >
+  <img width="200px" src="img/micromouse/Screenshot 2025-09-11 184100.jpg" class="img-thumbnail" >
 </div>
 
 For this final project in my ICS 111 class we were tasked to create a shopping cart application with a graphical user interface using Java Swing. This program allowed users to add items from a fixed drop down list of catagories and items, add different quantities, view their cart, and calculate their total with tax included.
