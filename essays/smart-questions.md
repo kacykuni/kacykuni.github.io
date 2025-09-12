@@ -11,7 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
 ## Why is it important to ask questions the 'smart' way?
 
