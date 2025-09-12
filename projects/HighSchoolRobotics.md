@@ -17,4 +17,15 @@ In high school, I joined my schools robotics team and spent 3 years on the mecha
 As part of the mechanical team, the attention to detail is crutial. Cutting parts that are off my .001 (the width of a sheet of paper) was unacceptable and had to be redone. My experience in robotics taught me problem-solving and collaboration with every aspect that went into making the robot come alive and made it operate in a variety of ways to accomplish and overcome obstacles that are important for competition. 
 
 Although I wasn't part of the electrical team, I still gained a lot of experience for how the different teams like mechanical, electrical, and programming come together to create a functional robot. 
-![IMG_8886](https://github.com/user-attachments/assets/86cfea5d-c3f0-465d-8058-a2648f4a611a)
+
+<img src="https://github.com/user-attachments/assets/86cfea5d-c3f0-465d-8058-a2648f4a611a" 
+     alt="Micromouse Robot" 
+     class="project-image">
+
+<style>
+.project-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+</style>
