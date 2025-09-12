@@ -13,7 +13,7 @@ summary: "One of my final projects in ICS 111 and my first time using GUI in Jav
 ---
 
 <div class="text-center p-4">
-  ![Screenshot 2025-09-11 184100](https://github.com/user-attachments/assets/a4470bf1-4d02-4ee8-9415-851e506e13b5)
+  img/Screenshot 2025-09-11 184100.jpg
 
 </div>
 
