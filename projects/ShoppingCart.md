@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/istockphoto-1206806317-612x612.jpg
 title: "Shopping Cart GUI"
 date: 2023
 published: true
@@ -13,27 +13,74 @@ summary: "One of my final projects in ICS 111 and my first time using GUI in Jav
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  ![Screenshot 2025-09-11 184100](https://github.com/user-attachments/assets/a4470bf1-4d02-4ee8-9415-851e506e13b5)
+
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+For this final project in my ICS 111 class we were tasked to create a shopping cart application with a graphical user interface using Java Swing. This program allowed users to add items from a fixed drop down list of catagories and items, add different quantities, view their cart, and calculate their total with tax included.
+This was my first time working with GUI programming, it was very interesting and fun to be able to play with the different components like JFrame, JPanel, JList, and JOptionPane to create small or big interactive windows and buttons. This was a huge shift than working with user input and arguments. 
+Overall, the project gave me a basic understanding of how GUIs are build and how complex coding must be on a larger scale with applications that I use everyday. It was definitely a challenging project for someone like me as a beginner programmer at the time, but it showed me how programming can create real and interactive applications. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates how I used graphical user interface in my programming:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+    public ShoppingCartGUI() {
+        setTitle("Shopping Cart");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+        // Create a DefaultListModel and JList
+        listModel = new DefaultListModel<>();
+        itemList = new JList<>(listModel);
+
+        // Create JScrollPane to hold the JList
+        JScrollPane scrollPane = new JScrollPane(itemList);
+        add(scrollPane, BorderLayout.CENTER);
+
+        JPanel topPanel = new JPanel(new BorderLayout());
+
+        shoppingCart = new ShoppingCart(listModel);
+
+        // Create buttons for manipulating the list
+        JButton addButton = new JButton("Add Item");
+        JButton checkoutButton = new JButton("Checkout");
+
+        // Add action listeners to the buttons
+        addButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                addItem();
+            }
+        });
+
+        checkoutButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                checkout();
+            }
+        });
+
+        // Create a panel for the buttons
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.add(addButton);
+        buttonPanel.add(checkoutButton);
+
+        // Add the button panel to the frame
+        topPanel.add(buttonPanel, BorderLayout.NORTH);
+
+        totalItemsLabel = new JLabel("Total Items: 0");
+        topPanel.add(totalItemsLabel, BorderLayout.CENTER);
+
+        add(topPanel, BorderLayout.NORTH);
+
+        subtotalLabel = new JLabel("Subtotal: $0.00");
+        add(subtotalLabel, BorderLayout.SOUTH);
+
+        itemQuantities = new HashMap<>();
+
+        // Set frame size and make it visible
+        setSize(300, 200);
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+```
