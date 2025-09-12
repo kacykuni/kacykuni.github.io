@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - ICS 111
-  - IntelliJ
+  - IntelliJ IDE
 summary: "One of my final projects in ICS 111 and my first time using GUI in Java"
 ---
 
