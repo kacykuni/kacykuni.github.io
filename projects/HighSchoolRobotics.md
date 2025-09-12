@@ -18,4 +18,3 @@ As part of the mechanical team, the attention to detail is crutial. Cutting part
 
 Although I wasn't part of the electrical team, I still gained a lot of experience for how the different teams like mechanical, electrical, and programming come together to create a functional robot. 
 ![IMG_8886](https://github.com/user-attachments/assets/86cfea5d-c3f0-465d-8058-a2648f4a611a)
-[IMG_8886.pdf](https://github.com/user-attachments/files/22290193/IMG_8886.pdf)
