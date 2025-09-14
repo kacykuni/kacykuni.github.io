@@ -5,7 +5,7 @@ type: essay
 title: "Future skills and Experiences I Seek as an ICS Major"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-06
-published: false
+published: true
 labels:
   - Software Engineering
   - ICS
