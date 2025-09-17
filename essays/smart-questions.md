@@ -14,7 +14,7 @@ labels:
 
 ## Why is it important to ask questions the 'smart' way?
 
-Eric Raymond's guidelines about asking questions the smart way demonstrates that how you present your problem, be respectful, grammer and spelling, and follow up, can affect your chances of getting useful and respectful answers from experts. Demonstrating the effort that you have tried to solving a problem, finding the appropriate place for asking questions, detail, politeness, and following up will result in more people to want to help you come to a solution. In recent years, I feel that some people may forget that they are asking real people for help, therefore these factors matter when asking a question. 
+Eric Raymond's guidelines about asking questions the smart way demonstrates that how you present your problem, be respectful, grammar and spelling, and follow up, can affect your chances of getting useful and respectful answers from experts. Demonstrating the effort that you have tried to solve a problem, finding the appropriate place for asking questions, detail, politeness, and following up will result in more people to wanting to help you come to a solution. In recent years, I feel that some people may forget that they are asking real people for help, therefore these factors matter when asking a question. 
 
 ## Example of a smart question
 
@@ -70,12 +70,12 @@ But no matter what, the inner tasks still show up in the default queue.
 
 ```
 
-In this example the asker clearly stated what program he is using and the issues that he is having. They provide their code directly into the question to give more context with the trouble they are having and provide the efforts they have already tried in order to fix the problem which has led them to ask other people on StackOverflow because they seem to have hit a wall trying to solve it themselves. The grammer mistakes in their question is very limited which adds to the clarity of their question which helps their question more understandable than those with type-o's. 
+In this example the asker clearly stated what program he is using and the issues that he is having. They provide their code directly into the question to give more context with the trouble they are having and provide the efforts they have already tried in order to fix the problem which has led them to ask other people on StackOverflow because they seem to have hit a wall trying to solve it themselves. The grammar mistakes in their question is very limited which adds to the clarity of their question which helps their question more understandable than those with type-o's. 
 
 
 ## Not smart question
 
-While I don't believe that there is such thing as a 'stupid' question. I do believe that the way you present your question and yourself can defintely affect the answers that you will recieve.
+While I don't believe that there is such a thing as a 'stupid' question. I do believe that the way you present your question and yourself can definitely affect the answers that you will receive.
 
 ```
 Q: reconnection issue in WhiskeySockets / Baileys
@@ -92,4 +92,4 @@ In this example, it is clear that there are many grammatical errors and the effo
 
 ## Conclusion
 
-In a world where technology is advancing rapidly, it has become so easy to ask AI or search on the internet for the answer to many of the problems that we ask. Then when that fails and we must seek out help from others, we still present many of our questions to same way like we are talking to a computer. It has been so easy to forget to ask questions respectfully and provide all the context and help to make answering our questions easier. This is why it is important to ask questions the 'smart' way because in my example above, there were no answers provided for their question, unlike the smart question example. 
+In a world where technology is advancing rapidly, it has become so easy to ask AI or search on the internet for the answer to many of the problems that we ask. Then when that fails and we must seek out help from others, we still present many of our questions in the same way like we are talking to a computer. It has been so easy to forget to ask questions respectfully and provide all the context and help to make answering our questions easier. This is why it is important to ask questions the 'smart' way because in my example above, there were no answers provided for their question, unlike the smart question example. 
