@@ -1,24 +1,24 @@
 ---
 layout: essay
-type: project
-image: img/istockphoto-1206806317-612x612.jpg
-title: "Shopping Cart GUI"
-date: 2023
-published: true
+type: essay
+title: "Reflection on Coding Standards"
+# All dates must be YYYY-MM-DD format!
+date: 2025-09-25
+published: false
 labels:
-  - Java
-  - ICS 111
-  - IntelliJ IDE
-summary: "One of my final projects in ICS 111 and my first time using GUI in Java"
+  - Software Engineering
+  - Coding Standards
+  - ICS
+  - Reflection
 ---
 
-![Screenshot 2025-09-11 184100](https://github.com/user-attachments/assets/68bfa827-6675-4719-b56a-fc3362b797de)
+## What are Coding Standards?
+As I have learned, coding standards are more than just making sure your code is correctly indented and your variables are well-defined. Coding standards are a set of well-defined rules and provides a standard style of coding that programmers must maintain. These standards are important in this field because in most times, other people will have to work on projects together and without a standard style, it would make it very difficult for others to work on projects together. Especially when working in an organization, it would be a terrible practice to allow everyone to use their own style of coding because it would be very confusing when the time comes for people to review the code. Following coding standards improves readability, reduces complexity, and allows for maintainability by making it very simple for anyone to jump into any project.
 
+## My Intake on Coding Standards
+I believe that it is important to follow coding standards, even so early in one's career because it promotes efficiency as a Programmer and Software Engineer. 
 
-For this final project in my ICS 111 class we were tasked to create a shopping cart application with a graphical user interface using Java Swing. This program allowed users to add items from a fixed drop down list of categories and items, add different quantities, view their cart, and calculate their total with tax included.
-
-This was my first time working with GUI programming, it was very interesting and fun to be able to play with the different components like JFrame, JPanel, JList, and JOptionPane to create small or big interactive windows and buttons. This was a huge shift than working with user input and arguments. 
-
-Overall, the project gave me a basic understanding of how GUIs are built and how complex coding must be on a larger scale with applications that I use everyday. It was definitely a challenging project for someone like me as a beginner programmer at the time, but it showed me how programming can create real and interactive applications. 
+## Using ESLint
+During this first week of introduction to VScode and ESLint has been very surprising. I thought that my favorite IDE so far has been with using IntelliJ, but I think ESLint takes the cake. I love that there are so many options for plugins and it just makes working on different WODs so much easier and efficient. The addition of ESLint definitely makes debugging easier and quickly identifying errors that don't follow a basic coding standards have greatly improved many of my small technical erros that I usually make. 
 
 Here is some code that illustrates how I used graphical user interface in my programming:
