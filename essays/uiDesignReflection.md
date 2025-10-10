@@ -23,4 +23,6 @@ I don’t think there is any shame in utilizing Bootstrap along with basic HTML 
 
 
 ## My Recreation of a Website
-Below, I have included my recreation of the Stardew Valley homepage along with the original homepage as a comparison. I wasn't able to create a perfect recreation of the homepage, but I hope with more time and practice that I will be able to attempt to recreate it again. 
+Below, I have included my recreation of the Stardew Valley homepage. I wasn't able to create a perfect recreation of the homepage, but I hope with more time and practice that I will be able to attempt to recreate it again. 
+
+https://github.com/kacykuni/stardewvalley
