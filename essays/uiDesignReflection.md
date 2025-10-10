@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Fun with Bootstrap 5 and UI frameworks"
 # All dates must be YYYY-MM-DD format!
-date: 2025-09-6
+date: 2025-10-09
 published: true
 labels:
   - Bootstrap Introduction
