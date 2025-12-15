@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: “Effort Estimation and AI Assistance"
+title: "Effort Estimation and AI Assistance"
 # All dates must be YYYY-MM-DD format!
 date: 2025-12-14
 published: true
