@@ -4,7 +4,7 @@ type: project
 image: img/warriorhub/Screenshot 2025-12-15 at 21-57-57 WarriorHub A UH Mānoa Event Scheduler.png
 title: "WarriorHub Web Application"
 date: 2025
-published: false
+published: true
 labels:
   - Web Application
   - Software Engineering
