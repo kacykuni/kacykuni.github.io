@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: “Reflection of Lessons from Using AI in ICS 314”
+title: "Reflection of Lessons from Using AI in ICS 314"
 # All dates must be YYYY-MM-DD format!
 date: 2025-12-11
 published: true
