@@ -23,11 +23,11 @@ summary: "My Final Group Project for ICS 314 Software Engineering College Course
   My primary role on this project was Front-End Developer, with additional responsibilities involving application logic, role-based access, and automated testing using Playwright. I developed the Event Search page, which loaded event data directly from the database and implemented search functionality for users to filter through events by event name, date, organization, and category, which allowed users to efficiently find relevant events that they are interested in attending. For administrative functionality, I created the Admin List Events page and assisted with implementing update and delete features for both administrators and organizers, allowing them to manage their events effectively with a single button and an edit event form page. 
   
 <p align="center">
-  <img src="img/warriorhub/list_events.png" alt="List Events Page" width="100%">
+  <img src="/img/warriorhub/list_events.png" alt="List Events Page" width="100%">
 </p>
 
 <p align="center">
-  <img src="img/warriorhub/edit_event_admin.png" alt="Admin Edit Page" width="100%">
+  <img src="/img/warriorhub/edit_event_admin.png" alt="Admin Edit Page" width="100%">
 </p>
 
   In addition to front-end development, I assisted with managing the role-based API access that ensured each page and feature was only accessible to the appropriate user type, such as user, admin, or organizer. I also contributed to the quality of our application by implementing Playwright into the project. This included writing, creating, and fixing automated tests for each user type and all of their respective pages. 
