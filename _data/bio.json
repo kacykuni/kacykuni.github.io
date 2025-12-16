@@ -14,19 +14,19 @@
     ]
   },
   "interests": [
-    { "name": "Creative media" },
     { "name": "Mathematics" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "3D Graphics" },
+    { "name": "Software Egnineering" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C++", "Java" ]
+      "keywords": [ "C++", "Java", "JavaScript", "Next.js" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Microsoft", "Git/GitHub"]
+      "keywords": [ "Microsoft", "Git/GitHub", "Vercel", "pgAdmin4"]
     }
   ],
   "education": [
